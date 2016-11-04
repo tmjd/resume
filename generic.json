@@ -1,0 +1,153 @@
+{
+  "basics": {
+    "name": "Erik T. Stidham",
+    "label": "Senior Software Developer",
+    "summary": "Obtain a challenging software engineering position at a company with software as one of the core foundations of its business.",
+    "phone": "1-314-266-8367",
+    "email": "estidham@gmail.com",
+    "location": {
+      "address": "5703 Briarwood Estates Dr",
+      "postalCode": "63129",
+      "city": "Saint Louis",
+      "countryCode": "US",
+      "region": "MO"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "tmjd",
+        "url": "https://github.com/tmjd"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "http://www.linkedin.com/in/erik-stidham"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Dell EMC / Virtustream",
+      "website": "https://virtustream.com/",
+      "position": "Senior Software Engineer",
+      "startDate": "2016-01",
+      "endDate": "2016-11",
+      "summary": "Updated, maintained, and serviced Mesos platform",
+      "highlights": [
+        "Prepared for platform upgrades by porting code changes to newer software versions and built tooling for platform versioning.",
+        "Recovered crashed or stuck nodes and restored services when necessary.",
+        "Brought up POC of Pivotal Cloud Foundry on OpenStack and researched integration with in-house monitoring solution.",
+        "Migrated to new version of Docker registry, initially targeting Docker Registry V2 and then switched to Artifactory."
+      ]
+    },
+    {
+      "company": "VelociData Inc.",
+      "website": "http://velocidata.com",
+      "position": "Senior Engineer",
+      "startDate": "2013-01",
+      "endDate": "2015-12",
+      "summary": "Developed high throughput processing appliance as part of an agile team",
+      "highlights": [
+        "Daily tasks included software development, unit testing, integration testing, software reviews, and software releases.",
+        "Developed scripts to aid in performance testing, integration testing, and developer support utilities.",
+        "Performed in depth analysis of system and networking issues.",
+        "Acted as customer support engineer when the opportunity was available.",
+        "Successfully transitioned with team from no official proccess to Agile Scrum process.",
+        "Contributed to switch from older FPGA interface to new interface, developed appication and support code, made minor updates to kernel module.",
+        "Brought up Jenkins CI testing to be an integral part of the development/release process.",
+        "Architected upgrade system for distribution of package updates to CentOS 6 based appliance."
+      ]
+    },
+    {
+      "company": "DRS Sustainment System, Inc.",
+      "website": "http://www.drs.com/",
+      "position": "Senior Engineering Specialist",
+      "startDate": "2004-06",
+      "endDate": "2013-01",
+      "summary": "",
+      "highlights": [
+        "Took over as lead and developed software for an aggressively scheduled radar program. Worked with System Engineering to complete requirement specifications. Developed interface to FPGAs over PCI Express and supported debugging of the FPGAs.",
+        "Provided on-site and off-site integration support",
+        "Extended streaming library to add audio streaming capabilities to existing application",
+        "Acted as third party reviewer in design reviews of other software projects",
+        "Created a comprehensive estimate for emulating an aging radar system",
+        "Worked on a redesign of a Ground Based Surveillance Radar control application. Made recommendations on operating system selection with real time capabilities. Profiled algorithms on new platform to identify bottleneck areas. Led a small team to port legacy code to the new environment. Worked with Systems Engineering to implement new processing algorithms and optimized the software to satisfy performance requirements utilizing signal processing library.",
+        "Setup and Administered Subversion repositories",
+        "Developed an application which provided an XML interface to control a Surveillance Radar. Utilized/Integrated pre-existing code base for radar control. Created/Updated requirements and test documents as needed."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Missouri-Rolla",
+      "area": "Computer Science and Computer Engineering",
+      "studyType": "Bachelor",
+      "gpa": "3.65/4.0",
+      "startDate": "1999-08",
+      "endDate": "2004-05"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "Python",
+        "C++",
+        "Bash",
+        "Go"
+      ]
+    },
+    {
+      "name": "Operating Systems",
+      "keywords": [
+        "Ubuntu",
+        "CentOS 6",
+        "VxWorks"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Saltstack",
+        "Ansible",
+        "Docker",
+        "Mesos",
+        "Marathon",
+        "TeamCity",
+        "Artifactory",
+        "Git",
+        "Vim",
+        "Make/Makefiles",
+        "Jira",
+        "GDB",
+        "Subversion",
+        "Jenkins CI",
+        "RPM/Yum",
+        "Valgrind",
+        "MS Visual Studio",
+        "Eclipse IDE"
+      ]
+    },
+    {
+      "name": "Experience with",
+      "keywords": [
+          "JSON/Yaml",
+          "GoogleTest",
+          "GoogleMock",
+          "PostgreSQL",
+          "Linux Kernel modules",
+          "strace",
+          "XML/XSD",
+          "SNMP",
+          "EBCDIC",
+          "Matlab",
+          "DLL",
+          "Cygwin"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "reference": "Available upon request"
+    }
+  ]
+}
