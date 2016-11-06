@@ -31,12 +31,13 @@
       "position": "Senior Software Engineer",
       "startDate": "2016-01",
       "endDate": "2016-11",
-      "summary": "Updated, maintained, and serviced Mesos platform",
+      "summary": "Worked with high performance distributed DevOps team.",
       "highlights": [
+        "Main focus was maintaining and servicing Mesos platform used for production services.",
         "Prepared for platform upgrades by porting code changes to newer software versions and built tooling for platform versioning.",
-        "Recovered crashed or stuck nodes and restored services when necessary.",
+        "Ensured production and lab services were functioning and healthy by recovering crashed or stuck nodes and restoring services when necessary.",
         "Brought up POC of Pivotal Cloud Foundry on OpenStack and researched integration with in-house monitoring solution.",
-        "Migrated to new version of Docker registry, initially targeting Docker Registry V2 and then switched to Artifactory."
+        "Enabled platform upgrades by migrating internal Docker registry from version 1 to version 2."
       ]
     },
     {
@@ -45,16 +46,16 @@
       "position": "Senior Engineer",
       "startDate": "2013-01",
       "endDate": "2015-12",
-      "summary": "Developed high throughput processing appliance as part of an agile team",
+      "summary": "Developed high throughput processing appliance as part of an agile team.",
       "highlights": [
-        "Daily tasks included software development, unit testing, integration testing, software reviews, and software releases.",
+        "Daily tasks included software development, unit testing, integration testing, software reviews, and software release management.",
         "Developed scripts to aid in performance testing, integration testing, and developer support utilities.",
         "Performed in depth analysis of system and networking issues.",
         "Acted as customer support engineer when the opportunity was available.",
-        "Successfully transitioned with team from no official proccess to Agile Scrum process.",
-        "Contributed to switch from older FPGA interface to new interface, developed appication and support code, made minor updates to kernel module.",
-        "Brought up Jenkins CI testing to be an integral part of the development/release process.",
-        "Architected upgrade system for distribution of package updates to CentOS 6 based appliance."
+        "Successfully transitioned with team from no official process to Agile Scrum process.",
+        "Enabled switch to newer FPGA interface by developing application, support code, and minor updates to kernel module.",
+        "Ensured confidence in our testing and release process by bringing up Jenkins CI testing to be an integral part of the development/release process.",
+        "Designed and implemented upgrade system for distribution of package updates to CentOS 6 based appliance."
       ]
     },
     {
@@ -105,23 +106,39 @@
       ]
     },
     {
-      "name": "Tools",
+      "name": "Configuration Management",
       "keywords": [
         "Saltstack",
-        "Ansible",
+        "Ansible"
+      ]
+    },
+    {
+      "name": "Containerization",
+      "keywords": [
         "Docker",
         "Mesos",
-        "Marathon",
+        "Marathon"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
         "TeamCity",
         "Artifactory",
+        "Docker Registry",
+        "Jira",
+        "Jenkins CI",
+        "RPM/Yum"
+      ]
+    },
+    {
+      "name": "Dev Tools",
+      "keywords": [
         "Git",
         "Vim",
         "Make/Makefiles",
-        "Jira",
         "GDB",
         "Subversion",
-        "Jenkins CI",
-        "RPM/Yum",
         "Valgrind",
         "MS Visual Studio",
         "Eclipse IDE"
@@ -131,17 +148,13 @@
       "name": "Experience with",
       "keywords": [
           "JSON/Yaml",
-          "GoogleTest",
-          "GoogleMock",
+          "GoogleTest/Mock",
           "PostgreSQL",
           "Linux Kernel modules",
           "strace",
           "XML/XSD",
           "SNMP",
-          "EBCDIC",
-          "Matlab",
-          "DLL",
-          "Cygwin"
+          "EBCDIC"
       ]
     }
   ],
