@@ -20,6 +20,7 @@
       },
       {
         "network": "LinkedIn",
+        "username": "erik-stidham",
         "url": "http://www.linkedin.com/in/erik-stidham"
       }
     ]
@@ -27,17 +28,17 @@
   "work": [
     {
       "company": "Dell EMC / Virtustream",
-      "website": "https://virtustream.com/",
+      "website": "http://virtustream.com/",
       "position": "Senior Software Engineer",
       "startDate": "2016-01",
       "endDate": "2016-11",
       "summary": "Worked with high performance distributed DevOps team.",
       "highlights": [
-        "Main focus was maintaining and servicing Mesos platform used for production services.",
+        "Maintained and improved Mesos platform used to run production services.",
         "Prepared for platform upgrades by porting code changes to newer software versions and built tooling for platform versioning.",
         "Ensured production and lab services were functioning and healthy by recovering crashed or stuck nodes and restoring services when necessary.",
         "Brought up POC of Pivotal Cloud Foundry on OpenStack and researched integration with in-house monitoring solution.",
-        "Enabled platform upgrades by migrating internal Docker registry from version 1 to version 2."
+        "Migrated internal Docker registry from version 1 to version 2 (via Artifactory)."
       ]
     },
     {
@@ -48,13 +49,13 @@
       "endDate": "2015-12",
       "summary": "Developed high throughput processing appliance as part of an agile team.",
       "highlights": [
-        "Daily tasks included software development, unit testing, integration testing, software reviews, and software release management.",
-        "Developed scripts to aid in performance testing, integration testing, and developer support utilities.",
-        "Performed in depth analysis of system and networking issues.",
-        "Acted as customer support engineer when the opportunity was available.",
+        "Contributed to feature and functionality improvements through software design, development, and reviews.",
+        "Improved quality and stability with unit and integration testing.",
+        "Enabled performance and integration testing through script and support utility creation.",
+        "Supported customer installations by doing customer support and performing in-depth analysis of issues.",
         "Successfully transitioned with team from no official process to Agile Scrum process.",
         "Enabled switch to newer FPGA interface by developing application, support code, and minor updates to kernel module.",
-        "Ensured confidence in our testing and release process by bringing up Jenkins CI testing to be an integral part of the development/release process.",
+        "Ensured confidence in testing and release process by bringing up Jenkins CI testing to be an integral part of the development/release process.",
         "Designed and implemented upgrade system for distribution of package updates to CentOS 6 based appliance."
       ]
     },
@@ -64,15 +65,14 @@
       "position": "Senior Engineering Specialist",
       "startDate": "2004-06",
       "endDate": "2013-01",
-      "summary": "",
+      "summary": "Maintained and developed military radar systems.",
       "highlights": [
-        "Took over as lead and developed software for an aggressively scheduled radar program. Worked with System Engineering to complete requirement specifications. Developed interface to FPGAs over PCI Express and supported debugging of the FPGAs.",
-        "Provided on-site and off-site integration support",
-        "Extended streaming library to add audio streaming capabilities to existing application",
-        "Acted as third party reviewer in design reviews of other software projects",
+        "Filled lead role when needed on an aggressively scheduled radar program.  Worked with Systems Engineering to complete requirements, developed interface to FPGAs over PCI Express, and and supported debugging of FPGAs.",
+        "Supported customer both on-site and off-site.",
+        "Ensured quality of other projects by performing design reviews.",
         "Created a comprehensive estimate for emulating an aging radar system",
         "Worked on a redesign of a Ground Based Surveillance Radar control application. Made recommendations on operating system selection with real time capabilities. Profiled algorithms on new platform to identify bottleneck areas. Led a small team to port legacy code to the new environment. Worked with Systems Engineering to implement new processing algorithms and optimized the software to satisfy performance requirements utilizing signal processing library.",
-        "Setup and Administered Subversion repositories",
+        "Modernized source control system by switching to Subversion.",
         "Developed an application which provided an XML interface to control a Surveillance Radar. Utilized/Integrated pre-existing code base for radar control. Created/Updated requirements and test documents as needed."
       ]
     }
