@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Erik T. Stidham",
-    "label": "Senior Software Developer",
+    "label": "Software/DevOps Engineer",
     "summary": "Obtain a challenging software engineering position at a company with software as one of the core foundations of its business.",
     "phone": "1-314-266-8367",
     "email": "estidham@gmail.com",
@@ -34,11 +34,15 @@
       "endDate": "2016-11",
       "summary": "Worked with high performance distributed DevOps team.",
       "highlights": [
-        "Maintained and improved Mesos platform used to run production services.",
-        "Prepared for platform upgrades by porting code changes to newer software versions and built tooling for platform versioning.",
-        "Ensured production and lab services were functioning and healthy by recovering crashed or stuck nodes and restoring services when necessary.",
-        "Brought up POC of Pivotal Cloud Foundry on OpenStack and researched integration with in-house monitoring solution.",
-        "Migrated internal Docker registry from version 1 to version 2 (via Artifactory)."
+        "Contributed to the maintenance of eight production Mesos sites each with 20+ nodes.",
+        "Ensured production and lab services were functioning and healthy by recovering crashed or stuck nodes and restoring services when necessary, in on-call situations and other times when I was available.",
+        "Contributed to and reviewed other's contributions to configuration management maintained in SaltStack.",
+        "Prepared for platform upgrades by porting custom code changes to newer software versions and verifying functionality in the new versions.",
+        "Built version resolver tooling used to create a 'platform version' manifest, the manifest is used to control versions and ensure consistent testing of the platform as a whole.",
+        "Ensured CICD and automated testing was running smoothly by administering TeamCity.",
+        "Added integrations to TeamCity by adding, configuring, and utilizing plugins.",
+        "Launched and documented Pivotal Cloud Foundry (PCF) on OpenStack as a proof of concept. Also created a data bridge to report metrics from PCF and setup monitoring dashboards.",
+        "Migrated internal Docker registry to version 2 and enabled the upgrade by updating systems running older versions of docker."
       ]
     },
     {
@@ -49,12 +53,12 @@
       "endDate": "2015-12",
       "summary": "Developed high throughput processing appliance as part of an agile team.",
       "highlights": [
-        "Contributed to feature and functionality improvements through software design, development, and reviews.",
+        "Contributed to software design, development, and reviews to add features and functionality to the appliance.",
         "Improved quality and stability with unit and integration testing.",
         "Enabled performance and integration testing through script and support utility creation.",
-        "Supported customer installations by doing customer support and performing in-depth analysis of issues.",
-        "Successfully transitioned with team from no official process to Agile Scrum process.",
-        "Enabled switch to newer FPGA interface by developing application, support code, and minor updates to kernel module.",
+        "Supported customer installations as part of the on-call rotation.  This included performing in-depth analysis and resolution of the issue or creating tickets to address the issues by the larger team.",
+        "Successfully utilized the Agile Scrum process after transitioning with team from no official process.",
+        "Enabled switch to newer FPGA interface by developing application and support code and making minor updates to our kernel module.",
         "Ensured confidence in testing and release process by bringing up Jenkins CI testing to be an integral part of the development/release process.",
         "Designed and implemented upgrade system for distribution of package updates to CentOS 6 based appliance."
       ]
@@ -67,7 +71,7 @@
       "endDate": "2013-01",
       "summary": "Maintained and developed military radar systems.",
       "highlights": [
-        "Filled lead role when needed on an aggressively scheduled radar program.  Worked with Systems Engineering to complete requirements, developed interface to FPGAs over PCI Express, and and supported debugging of FPGAs.",
+        "Filled lead role when needed on an aggressively scheduled radar program.  Worked with Systems Engineering to complete requirements, developed interface to FPGAs over PCI Express, and supported debugging of FPGAs.",
         "Supported customer both on-site and off-site.",
         "Ensured quality of other projects by performing design reviews.",
         "Created a comprehensive estimate for emulating an aging radar system",
@@ -108,7 +112,7 @@
     {
       "name": "Configuration Management",
       "keywords": [
-        "Saltstack",
+        "SaltStack",
         "Ansible"
       ]
     },
