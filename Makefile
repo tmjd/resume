@@ -1,6 +1,6 @@
 
 DOCKER_IMG := tmjd/hackmyresume
-THEME := node_modules/jsonresume-theme-clean
+THEME := node_modules/jsonresume-theme-custom
 CUSTOM_THEME_DIR := /node_modules/jsonresume-theme-custom
 VOLUME := -v $(shell pwd):/resume -v $(shell pwd)/theme:$(CUSTOM_THEME_DIR)
 
@@ -25,6 +25,13 @@ build: validate
 		$(VOLUME) \
 		$(DOCKER_IMG) \
 		hackmyresume BUILD -t $(THEME) /resume/generic.json TO /resume/out/index.all
+
+.PHONY: build_detailed
+build_detailed: 
+	@sudo docker run --rm \
+		$(VOLUME) \
+		$(DOCKER_IMG) \
+		hackmyresume BUILD -t $(THEME) /resume/generic.json /resume/detailed.json TO /resume/out/index.all
 
 .PHONY: list_themes
 list_themes:

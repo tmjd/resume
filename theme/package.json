@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "jsonresume-theme-clean",
+        "scope": null,
+        "escapedName": "jsonresume-theme-clean",
+        "name": "jsonresume-theme-clean",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/"
+    ]
+  ],
+  "_from": "jsonresume-theme-clean@latest",
+  "_id": "jsonresume-theme-clean@0.0.1",
+  "_inCache": true,
+  "_location": "/jsonresume-theme-clean",
+  "_nodeVersion": "4.2.1",
+  "_npmOperationalInternal": {
+    "host": "packages-9-west.internal.npmjs.com",
+    "tmp": "tmp/jsonresume-theme-clean-0.0.1.tgz_1454471571135_0.6157279654871672"
+  },
+  "_npmUser": {
+    "name": "developer2357",
+    "email": "developer2357@gmail.com"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "jsonresume-theme-clean",
+    "scope": null,
+    "escapedName": "jsonresume-theme-clean",
+    "name": "jsonresume-theme-clean",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/jsonresume-theme-clean/-/jsonresume-theme-clean-0.0.1.tgz",
+  "_shasum": "181858d8ccbade75ee8083bfc77dd5923a7a5cdd",
+  "_shrinkwrap": null,
+  "_spec": "jsonresume-theme-clean",
+  "_where": "/",
+  "author": {
+    "name": "H T"
+  },
+  "bugs": {
+    "url": "https://github.com/erming/jsonresume-theme-clean/issues"
+  },
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4"
+  },
+  "description": "clean theme for JSON Resume",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "181858d8ccbade75ee8083bfc77dd5923a7a5cdd",
+    "tarball": "https://registry.npmjs.org/jsonresume-theme-clean/-/jsonresume-theme-clean-0.0.1.tgz"
+  },
+  "homepage": "https://github.com/erming/jsonresume-theme-clean#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "developer2357",
+      "email": "developer2357@gmail.com"
+    }
+  ],
+  "name": "jsonresume-theme-clean",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erming/jsonresume-theme-clean.git"
+  },
+  "scripts": {},
+  "version": "0.0.1"
+}
