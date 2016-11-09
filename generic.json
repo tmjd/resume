@@ -34,7 +34,7 @@
       "endDate": "2016-11",
       "summary": "Worked with high performance distributed DevOps team.",
       "highlights": [
-        "Contributed to the maintenance of a microservice platform that consisted of eight production sites, each with 20+ nodes, that ran custom branches of Mesos, Consul, etcd, and Calico.",
+        "Contributed to the maintenance of a microservice platform that consisted of eight production sites, each with 20+ nodes, that run custom branches of Mesos, Consul, etcd, and Calico.",
         "Ensured production and lab services were functioning and healthy by recovering crashed or stuck nodes and restoring services when on-call and other times when available.",
         "Contributed to configuration management (SaltStack) and reviewed coworkers' contributions to ensure we were maintaining our standards and following best practices.",
         "Prepared for platform upgrades by porting custom code changes to newer software versions and verifying functionality in the new versions. Also tested new functionality available, specifically Mesos CNI with Calico networking.",
