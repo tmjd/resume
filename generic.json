@@ -35,7 +35,7 @@
       "summary": "Worked with high performance distributed DevOps team.",
       "highlights": [
         "Contributed to the maintenance of a microservice platform that consisted of eight production sites, each with 20+ nodes, that run custom branches of Mesos, Consul, etcd, and Calico.",
-        "Ensured production and lab services were functioning and healthy by recovering crashed or stuck nodes and restoring services when on-call and other times when available.",
+        "Ensured production and lab services were functioning and healthy by recovering crashed or stuck nodes and restoring services when on-call and when available.",
         "Contributed to configuration management (SaltStack) and reviewed coworkers' contributions to ensure we were maintaining our standards and following best practices.",
         "Updated Ansible playbooks, adding features to the test and development platform.",
         "Prepared for platform upgrades by porting custom code changes to newer software versions and verifying functionality in the new versions. Also tested new functionality available, specifically Mesos CNI with Calico networking.",
@@ -54,13 +54,13 @@
       "summary": "Developed high throughput processing appliance as part of an agile team.",
       "highlights": [
         "Contributed to software design, development, and reviews to add features and functionality to the appliance.",
-        "Improved quality and stability with unit and integration testing.",
-        "Enabled performance and integration testing through script and support utility creation.",
-        "Supported customer installations as part of the on-call rotation.  This included performing in-depth analysis and resolution of the issue or creating tickets to address the issues by the larger team.",
-        "Successfully utilized the Agile Scrum process after transitioning with team from no official process.",
-        "Enabled switch to newer FPGA interface by developing application and support code and making minor updates to our kernel module.",
         "Ensured confidence in testing and release process by bringing up Jenkins CI testing to be an integral part of the development/release process.",
-        "Designed and implemented upgrade system for distribution of package updates to CentOS 6 based appliance."
+        "Designed and implemented upgrade system for distribution of package updates to CentOS 6 based appliance.",
+        "Improved quality and stability by contributing to unit and integration testing.",
+        "Enabled performance and integration testing through script and support utility creation.",
+        "Successfully utilized the Agile Scrum process after transitioning with team from no official process.",
+        "Supported customer installations as part of the on-call rotation.  This included performing in-depth analysis and resolution of the issue or creating tickets to address the issue by the larger team.",
+        "Enabled switch to newer FPGA interface by developing application and support code and making minor updates to our kernel module."
       ]
     },
     {
