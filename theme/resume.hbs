@@ -19,6 +19,14 @@
       </div>
 	 {{/resume.basics}} 
       <div class='left-content'>
+        {{#if resume.basics.summary.length}}
+        <section class='card'>
+          <div class='section-header'>Summary</div>
+          <div class='skills-container'>
+            {{resume.basics.summary}}
+          </div>
+        </section>
+        {{/if}}
       	{{#resume.basics}}
         <section class='card'>
           <div class='section-header'>Contact</div>
