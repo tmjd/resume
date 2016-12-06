@@ -34,14 +34,13 @@
       "endDate": "2016-11",
       "summary": "Worked with high performance distributed DevOps team.",
       "highlights": [
-        "Contributed to the maintenance of a microservice platform that consisted of eight production sites, each with 20+ nodes, running Mesos, Marathon, Consul, etcd, and Calico.",
+        "Intercepted disruptions to team members by being the first responder to issues on our microservice platform running Mesos and Marathon that consisted of eight production sites, each with 20+ nodes.",
         "Ensured production and lab services were functioning and healthy by recovering crashed or stuck nodes and restoring services when on-call and when available.",
         "Contributed to configuration management (SaltStack) and reviewed coworkers' contributions to ensure we were maintaining our standards and following best practices.",
-        "Updated Ansible playbooks, adding features to the test and development platform.",
+        "Added features to the test and development platform, by updating Ansible playbooks.",
         "Prepared for platform upgrades by porting custom code changes to newer software versions and verifying functionality in the new versions. Also tested new functionality available, specifically Mesos CNI with Calico networking.",
-        "Built version resolver tool used to create a 'platform version' manifest, the manifest is used to control versions and ensure consistent testing of the platform as a whole.",
+        "Created Python utilities for production, build, and test environments.",
         "Administered TeamCity ensuring CICD and automated testing was running smoothly, also added integration plugins when needed.",
-        "Created utility for verifying health of all members in an etcd cluster.",
         "Launched and documented Pivotal Cloud Foundry (PCF) on OpenStack as a proof of concept. Also created a data bridge to report metrics from PCF and setup monitoring dashboards.",
         "Migrated internal Docker registry to version 2 and enabled the upgrade by updating systems running older versions of docker."
       ]
@@ -54,7 +53,8 @@
       "endDate": "2015-12",
       "summary": "Developed high throughput processing appliance as part of an agile team.",
       "highlights": [
-        "Contributed to software design, development, and reviews to add features and functionality to the appliance.",
+        "Added features to the appliance by designing and developing new functionality.",
+        "Maintained coding standards by reviewing team members script and code contributions.",
         "Ensured confidence in testing and release process by bringing up Jenkins CI testing to be an integral part of the development/release process.",
         "Designed and implemented upgrade system for distribution of package updates to CentOS 6 based appliance.",
         "Improved quality and stability by contributing to unit and integration testing.",
@@ -72,7 +72,7 @@
       "endDate": "2013-01",
       "summary": "Maintained and developed software for military radar systems.",
       "highlights": [
-        "When the lead on an aggressively scheduled radar program left I took over as the lead.",
+        "Kept development moving on an aggressively scheduled radar program by taking over as lead when the previous lead left.",
         "Often worked with Systems Engineering on creating and updating requirements and implementing newly developed processing algorithms.",
         "Developed applications interfacing to FPGAs over PCI Express, and supported debugging of FPGA functionality.",
         "Supported customer both on-site and off-site.",
