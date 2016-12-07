@@ -30,7 +30,7 @@ build: validate
 		$(VOLUME) \
 		$(DOCKER_IMG) \
 		hackmyresume BUILD -t node_modules/fresh-themes/themes/basis /resume/generic.json TO /resume/out/index.txt
-	cp out/index.txt erik_stidham.txt
+	sed '/^$$/N;/^\n$$/D' out/index.txt > erik_stidham.txt
 
 .PHONY: convert
 convert: validate
