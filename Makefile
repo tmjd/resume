@@ -24,7 +24,20 @@ build: validate
 	@sudo docker run --rm \
 		$(VOLUME) \
 		$(DOCKER_IMG) \
-		hackmyresume BUILD -t $(THEME) /resume/generic.json TO /resume/out/index.all
+		hackmyresume BUILD -t $(THEME) /resume/generic.json TO /resume/out/index.pdf /resume/out/index.html
+	cp out/index.pdf erik_stidham.pdf
+	@sudo docker run --rm \
+		$(VOLUME) \
+		$(DOCKER_IMG) \
+		hackmyresume BUILD -t node_modules/fresh-themes/themes/basis /resume/generic.json TO /resume/out/index.txt
+	cp out/index.txt erik_stidham.txt
+
+.PHONY: convert
+convert: validate
+	@sudo docker run --rm \
+		$(VOLUME) \
+		$(DOCKER_IMG) \
+		hackmyresume CONVERT /resume/generic.json TO /resume/generic-alt.json
 
 .PHONY: build_detailed
 build_detailed: 
