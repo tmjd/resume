@@ -8,7 +8,7 @@ Web: {{ r.contact.website }}{% } %}{% if (r.social) { r.social.forEach( function
 {{ r.info.brief }}{% } %}
 
 {% if ( r.skills && r.skills.sets && r.skills.sets.length ) { %}== SKILLS =={% r.skills.sets.forEach( function( set ) { %}
-- {{ set.name }}: {{ set.skills.join(', ') }} {% }); } else if( r.skills && r.skills.list && r.skills.list.length ) { %}
+{{ set.name }}: {{ set.skills.join(', ') }} {% }); } else if( r.skills && r.skills.list && r.skills.list.length ) { %}
 
 {% } %}
 
