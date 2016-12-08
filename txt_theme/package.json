@@ -1,0 +1,95 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "fresh-theme-underscore",
+        "scope": null,
+        "escapedName": "fresh-theme-underscore",
+        "name": "fresh-theme-underscore",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/"
+    ]
+  ],
+  "_from": "fresh-theme-underscore@latest",
+  "_id": "fresh-theme-underscore@0.1.0",
+  "_inCache": true,
+  "_location": "/fresh-theme-underscore",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "hacksalot",
+    "email": "hacksalot@fluentdesk.com"
+  },
+  "_npmVersion": "2.13.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "fresh-theme-underscore",
+    "scope": null,
+    "escapedName": "fresh-theme-underscore",
+    "name": "fresh-theme-underscore",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/fresh-theme-underscore/-/fresh-theme-underscore-0.1.0.tgz",
+  "_shasum": "90f55204ccb8885061356d7ca0e4c2a0d65be8ec",
+  "_shrinkwrap": null,
+  "_spec": "fresh-theme-underscore",
+  "_where": "/",
+  "author": {
+    "name": "hacksalot",
+    "email": "hacksalot@indevious.com",
+    "url": "http://indevious.com"
+  },
+  "bugs": {
+    "url": "https://github.com/fluentdesk/fresh-theme-underscore/issues"
+  },
+  "dependencies": {},
+  "description": "An example Underscore.js-driven theme for FRESH / FRESCA résumés and CVs.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "90f55204ccb8885061356d7ca0e4c2a0d65be8ec",
+    "tarball": "https://registry.npmjs.org/fresh-theme-underscore/-/fresh-theme-underscore-0.1.0.tgz"
+  },
+  "gitHead": "2ec8095cd310613b491b9879662b853c42f28f08",
+  "homepage": "https://github.com/fluentdesk/fresh-theme-underscore",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "keywords": [
+    "FRESCA",
+    "FRESH",
+    "fresh-theme",
+    "resume",
+    "CV",
+    "HackMyResume",
+    "FluentCV"
+  ],
+  "license": "MIT",
+  "main": "theme.json",
+  "maintainers": [
+    {
+      "name": "hacksalot",
+      "email": "hacksalot@fluentdesk.com"
+    }
+  ],
+  "name": "fresh-theme-underscore",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluentdesk/fresh-theme-underscore.git"
+  },
+  "scripts": {},
+  "version": "0.1.0"
+}

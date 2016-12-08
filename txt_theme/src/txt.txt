@@ -1,0 +1,53 @@
+{{ r.name }}
+{% if (r.contact.email) { %}Email: {{ r.contact.email }}{% } %}
+{% if (r.contact.phone) { %}Tel: {{ r.contact.phone }}{% } %}{% if (r.contact.website) { %}
+Web: {{ r.contact.website }}{% } %}{% if (r.social) { r.social.forEach( function(set) { %}
+{{set.network}}: {{set.url}} {% })}%}
+{% if ( r.info.brief && r.info.brief.length ) { %}
+== HEADLINE ==
+{{ r.info.brief }}{% } %}
+
+{% if ( r.skills && r.skills.sets && r.skills.sets.length ) { %}== SKILLS =={% r.skills.sets.forEach( function( set ) { %}
+- {{ set.name }}: {{ set.skills.join(', ') }} {% }); } else if( r.skills && r.skills.list && r.skills.list.length ) { %}
+
+{% } %}
+
+{% if ( r.employment && r.employment.history ) { %}{% print(h.sectionTitle('== EMPLOYMENT ==')) %}
+{% r.employment.history.forEach( function( proj, idx, ar) { %}
+{{ proj.employer }} {{ h.dateRange(proj) }}
+{{ proj.summary }}
+{% if( proj.highlights ) { %}{% proj.highlights.forEach( function( high ) { %}  - {{ high }}
+{% }); }  }); } %}{% if ( r.education && r.education.history ) { %}
+
+{% print(h.sectionTitle('== EDUCATION ==')) %}
+{% r.education.history.forEach( function( edu, idx, ar) { %}
+{{ edu.institution }} {% print(h.dateRange(edu)) %} {% if (edu.summary) { %}
+{{ edu.summary }} {% } if (edu.studyType && edu.area) { %}
+  - {{ edu.studyType }} in {{ edu.area }} {% } %}
+{% if( edu.courses ) { %}{% edu.courses.forEach( function( course ) { %}
+  - {{ course }}
+{% }); } }); } %}{% if ( r.projects && r.projects.length ) { %}
+
+{% print(h.sectionTitle('== PROJECTS ==')) %}
+{% r.projects.forEach( function( proj, idx, ar) { %}
+{{ proj.title }} {{ h.dateRange( proj ) }}
+{{ proj.summary }}
+{% if( proj.highlights ) { %}{% proj.highlights.forEach( function( high ) { %}
+  - {{ high }}
+{% }); } }); } %}{% if ( r.service && r.service.history ) { %}
+
+{% print(h.sectionTitle('service', '== VOLUNTEER ==')) %}
+{% r.service.history.forEach( function( srv, idx, ar) { %}
+{{ srv.organization }} ({{ srv.safe.start.format('YYYY-MM') }} — {{ srv.safe.end.format('YYYY-MM') }})
+{{ srv.summary }}
+{% if( srv.highlights ) { %}{% srv.highlights.forEach( function( high ) { %}
+  - {{ high }}
+{% }); } }); } %}{% if ( r.writing && r.writing.length ) { %}
+
+{% print(h.sectionTitle('== EMPLOYMENT ==')) %}
+{% r.writing.forEach( function( wri, idx, ar) { %}
+{{ wri.title }} ({{ wri.safe.date.format('YYYY-MM') }})
+{{ wri.summary }}
+{% }); } %}
+
+* Please forgive this text only resume, this format is being used to ensure any processing done by an automated system has no trouble with the content.  If you would prefer a nicely formatted version please contact me and I will make that available immediately.

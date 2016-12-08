@@ -21,7 +21,7 @@
       <div class='left-content'>
         {{#if resume.basics.summary.length}}
         <section class='card'>
-          <div class='section-header'>Summary</div>
+          <div class='section-header'>Headline</div>
           <div class='skills-container'>
             {{resume.basics.summary}}
           </div>
@@ -35,18 +35,18 @@
               <div class='email'>
                 <a href='mailto:{{email}}'>{{email}}</a>
               </div>
+              <div class='phone-number'>
+                <a href="tel:{{phone}}">{{phone}}</a>
+              </div>
               {{#if profiles.length}}
               	{{#each profiles}}
               		{{#if url}}
-		              <div class='site'>
-		                <a href='{{url}}'>{{url}}</a>
-		              </div>
+              <div class='site'>
+                <a href='{{url}}'>{{network}}: {{username}}</a>
+              </div>
               		{{/if}}
               	{{/each}}
               {{/if}}
-              <div class='phone-number last'>
-                <a href="tel:{{phone}}">{{phone}}</a>
-              </div>
             </div>
           </div>
         </section>

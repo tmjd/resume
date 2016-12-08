@@ -2,7 +2,9 @@
 DOCKER_IMG := tmjd/hackmyresume
 THEME := node_modules/jsonresume-theme-custom
 CUSTOM_THEME_DIR := /node_modules/jsonresume-theme-custom
-VOLUME := -v $(shell pwd):/resume -v $(shell pwd)/theme:$(CUSTOM_THEME_DIR)
+TXT_THEME := node_modules/fresh-theme-custom
+CUSTOM_TXT_THEME_DIR := /node_modules/fresh-theme-custom
+VOLUME := -v $(shell pwd):/resume -v $(shell pwd)/theme:$(CUSTOM_THEME_DIR) -v $(shell pwd)/txt_theme:$(CUSTOM_TXT_THEME_DIR)
 
 # Some of the themes that I think look good
 # class2 clean elegant-leonth
@@ -19,18 +21,31 @@ validate:
 		$(DOCKER_IMG) \
 		hackmyresume VALIDATE /resume/generic.json
 
+.PHONY: build_txt
+build_txt:
+	@sudo docker run --rm \
+		$(VOLUME) \
+		$(DOCKER_IMG) \
+		hackmyresume BUILD -t $(TXT_THEME) /resume/generic.json TO /resume/out/index.txt
+
+.PHONY: build_pdf
+build_pdf:
+	@sudo docker run --rm \
+		$(VOLUME) \
+		$(DOCKER_IMG) \
+		hackmyresume BUILD -t $(THEME) /resume/generic.json TO /resume/out/index.pdf
+
+.PHONY: build_html
+build_html:
+	@sudo docker run --rm \
+		$(VOLUME) \
+		$(DOCKER_IMG) \
+		hackmyresume BUILD -t $(THEME) /resume/generic.json TO /resume/out/index.html
+
 .PHONY: build
-build: validate
-	@sudo docker run --rm \
-		$(VOLUME) \
-		$(DOCKER_IMG) \
-		hackmyresume BUILD -t $(THEME) /resume/generic.json TO /resume/out/index.pdf /resume/out/index.html
+build: validate build_pdf build_html build_txt
 	cp out/index.pdf erik_stidham.pdf
-	@sudo docker run --rm \
-		$(VOLUME) \
-		$(DOCKER_IMG) \
-		hackmyresume BUILD -t node_modules/fresh-themes/themes/basis /resume/generic.json TO /resume/out/index.txt
-	sed '/^$$/N;/^\n$$/D' out/index.txt > erik_stidham.txt
+	cp out/index.txt erik_stidham.txt
 
 .PHONY: convert
 convert: validate
