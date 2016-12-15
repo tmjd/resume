@@ -14,9 +14,9 @@ Web: {{ r.contact.website }}{% } %}{% if (r.social) { r.social.forEach( function
 
 {% if ( r.employment && r.employment.history ) { %}{% print(h.sectionTitle('== EMPLOYMENT ==')) %}
 {% r.employment.history.forEach( function( proj, idx, ar) { %}
-{{ proj.employer }} {{ h.dateRange(proj) }}
+* {{ proj.employer }} * {{ proj.position }} * {{ h.dateRange(proj) }} *
 {{ proj.summary }}
-{% if( proj.highlights ) { %}{% proj.highlights.forEach( function( high ) { %}  - {{ high }}
+{% if( proj.highlights ) { %}{% proj.highlights.forEach( function( high ) { %}   - {{ high }}
 {% }); }  }); } %}{% if ( r.education && r.education.history ) { %}
 
 {% print(h.sectionTitle('== EDUCATION ==')) %}
@@ -50,4 +50,4 @@ Web: {{ r.contact.website }}{% } %}{% if (r.social) { r.social.forEach( function
 {{ wri.summary }}
 {% }); } %}
 
-* Please forgive this text only resume, this format is being used to ensure any processing done by an automated system has no trouble with the content.  If you would prefer a nicely formatted version please contact me and I will make that available immediately.
+* Please forgive this text only resume, this format is being used to ensure any processing done by an automated system has no trouble with the content.  If you would prefer a nicely formatted version, please contact me and I will make that available immediately.
