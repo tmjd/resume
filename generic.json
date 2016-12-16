@@ -2,7 +2,7 @@
   "name": "Erik T. Stidham",
   "info": {
      "label": "Software Engineer",
-     "brief": "Self-starting team player looking to add value and excited to learn new technologies and solve difficult problems."
+     "brief": "Self-starting engineer capable of working independently or as part of a team.  Quick to learn new technologies when the need exists or opportunity is available.  Always willing to tackle new problems, especially to allow other team members to remain focused on their primary tasks."
   },
   "contact": {
      "email": "estidham@gmail.com",
@@ -19,14 +19,14 @@
     "history": [
       {
         "position": "Senior Software Engineer",
-        "employer": "Dell EMC / Virtustream",
-        "summary": "Worked with high performance distributed DevOps team.",
+        "employer": "Virtustream",
+        "summary": "Worked with high performance distributed DevOps team responsible for a microservice platform running Mesos and Marathon consisting of eight production sites, each with 20+ nodes.",
         "start": "2016-01",
         "end": "2016-11",
         "url": "http://virtustream.com/",
         "keywords": [],
         "highlights": [
-          "Intercepted disruptions to team members by being the first responder to issues on our microservice platform running Mesos and Marathon that consisted of eight production sites, each with 20+ nodes.",
+          "Intercepted disruptions to team members by being the first responder to issues.",
           "Ensured production and lab services were functioning and healthy by recovering crashed or stuck nodes and restoring services when on-call and when available.",
           "Contributed to configuration management (SaltStack) and reviewed coworkers' contributions to ensure we were maintaining our standards and following best practices.",
           "Added features to the test and development platform, by updating Ansible playbooks.",
@@ -40,7 +40,7 @@
       {
         "position": "Senior Engineer",
         "employer": "VelociData Inc.",
-        "summary": "Developed high throughput processing appliance as part of an agile team.",
+        "summary": "Developed high throughput processing appliance as part of an agile team.  Primary role was developing highly multi-threaded service written in C++.  As part of a small company and team, it was often required to work on different aspects of the platform, and taking those aspects through the full development life cycle.",
         "start": "2013-01",
         "end": "2015-12",
         "url": "http://velocidata.com",
@@ -60,7 +60,7 @@
       {
         "position": "Senior Engineering Specialist",
         "employer": "DRS Sustainment System, Inc.",
-        "summary": "Maintained and developed software for military radar systems.",
+        "summary": "Maintained and developed software for military radar systems.  Created control and processing applications with real-time requirements.  Wrote requirement, design, and test documentation as required by governmental contractual obligations.",
         "start": "2004-06",
         "end": "2013-01",
         "url": "http://www.drs.com/",
