@@ -2,10 +2,10 @@
   "_args": [
     [
       {
-        "raw": "fresh-theme-compact",
+        "raw": "jsonresume-theme-direct",
         "scope": null,
-        "escapedName": "fresh-theme-compact",
-        "name": "fresh-theme-compact",
+        "escapedName": "jsonresume-theme-direct",
+        "name": "jsonresume-theme-direct",
         "rawSpec": "",
         "spec": "latest",
         "type": "tag"
@@ -13,22 +13,26 @@
       "/"
     ]
   ],
-  "_from": "fresh-theme-compact@latest",
-  "_id": "fresh-theme-compact@0.1.0",
+  "_from": "jsonresume-theme-direct@latest",
+  "_id": "jsonresume-theme-direct@0.1.1",
   "_inCache": true,
-  "_location": "/fresh-theme-compact",
-  "_nodeVersion": "0.12.7",
-  "_npmUser": {
-    "name": "hacksalot",
-    "email": "hacksalot@fluentdesk.com"
+  "_location": "/jsonresume-theme-direct",
+  "_nodeVersion": "5.7.0",
+  "_npmOperationalInternal": {
+    "host": "packages-5-east.internal.npmjs.com",
+    "tmp": "tmp/jsonresume-theme-direct-0.1.1.tgz_1456701581006_0.8310876828618348"
   },
-  "_npmVersion": "2.13.1",
+  "_npmUser": {
+    "name": "mrancourt",
+    "email": "vonziper@gmail.com"
+  },
+  "_npmVersion": "3.6.0",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "fresh-theme-compact",
+    "raw": "jsonresume-theme-direct",
     "scope": null,
-    "escapedName": "fresh-theme-compact",
-    "name": "fresh-theme-compact",
+    "escapedName": "jsonresume-theme-direct",
+    "name": "jsonresume-theme-direct",
     "rawSpec": "",
     "spec": "latest",
     "type": "tag"
@@ -36,61 +40,46 @@
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/fresh-theme-compact/-/fresh-theme-compact-0.1.0.tgz",
-  "_shasum": "6c05b8d12e7d597a09382f116aef0b9fd580284f",
+  "_resolved": "https://registry.npmjs.org/jsonresume-theme-direct/-/jsonresume-theme-direct-0.1.1.tgz",
+  "_shasum": "8a4e0dc656d9b5b4c12b01bc6b7b6b8c1ff4f440",
   "_shrinkwrap": null,
-  "_spec": "fresh-theme-compact",
+  "_spec": "jsonresume-theme-direct",
   "_where": "/",
   "author": {
-    "name": "hacksalot",
-    "email": "hacksalot@indevious.com",
-    "url": "http://indevious.com"
+    "name": "Martin Rancourt"
   },
   "bugs": {
-    "url": "https://github.com/fluentdesk/fresh-theme-compact/issues"
+    "url": "https://github.com/mrancourt/jsonresume-theme-direct/issues"
   },
-  "dependencies": {},
-  "description": "A compact, no-frills résumé theme for candidates with lengthy work histories.",
+  "dependencies": {
+    "flexboxgrid": "^6.3.0",
+    "handlebars": "^2.0.0-alpha.4",
+    "moment": "^2.11.2",
+    "underscore": "^1.8.3"
+  },
+  "description": "A simple yet elegant theme for JSON Resume",
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "6c05b8d12e7d597a09382f116aef0b9fd580284f",
-    "tarball": "https://registry.npmjs.org/fresh-theme-compact/-/fresh-theme-compact-0.1.0.tgz"
+    "shasum": "8a4e0dc656d9b5b4c12b01bc6b7b6b8c1ff4f440",
+    "tarball": "https://registry.npmjs.org/jsonresume-theme-direct/-/jsonresume-theme-direct-0.1.1.tgz"
   },
-  "gitHead": "0fd865396ff1893416d2d5eee5f0365a0d2198c8",
-  "homepage": "https://github.com/fluentdesk/fresh-theme-compact",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "keywords": [
-    "resume",
-    "CV",
-    "FRESH",
-    "FluentCV",
-    "HackMyResume",
-    "schema",
-    "JSON",
-    "employment"
-  ],
+  "gitHead": "7019ec58d4f67ea2727f8202cb20355a9b7ce2ba",
+  "homepage": "https://github.com/mrancourt/jsonresume-theme-direct#readme",
   "license": "MIT",
-  "main": "compact.json",
   "maintainers": [
     {
-      "name": "hacksalot",
-      "email": "hacksalot@fluentdesk.com"
+      "name": "mrancourt",
+      "email": "vonziper@gmail.com"
     }
   ],
-  "name": "fresh-theme-compact",
+  "name": "jsonresume-theme-direct",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fluentdesk/fresh-theme-compact.git"
+    "url": "git+https://github.com/mrancourt/jsonresume-theme-direct.git"
   },
   "scripts": {},
-  "version": "0.1.0"
+  "version": "0.1.1"
 }

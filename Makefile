@@ -1,7 +1,7 @@
 
 DOCKER_IMG := tmjd/hackmyresume
-THEME := node_modules/fresh-theme-custompdf
-CUSTOM_THEME_DIR := /node_modules/fresh-theme-custompdf
+THEME := node_modules/jsonresume-theme-custompdf
+CUSTOM_THEME_DIR := /node_modules/jsonresume-theme-custompdf
 TXT_THEME := node_modules/fresh-theme-customtxt
 CUSTOM_TXT_THEME_DIR := /node_modules/fresh-theme-customtxt
 VOLUME := -v $(shell pwd):/resume -v $(shell pwd)/theme:$(CUSTOM_THEME_DIR) -v $(shell pwd)/txt_theme:$(CUSTOM_TXT_THEME_DIR)
